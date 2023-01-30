@@ -12,10 +12,10 @@ import { FeaturedPosts } from '../sections';
 
 export default function Home ({ posts }) {
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-2 lg:px-10 sm:px-5 mb-8">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>BlogRSA</title>
+        <link rel="icon" href="images/nihal-logo3.ico" />
       </Head>
 
       <FeaturedPosts />
